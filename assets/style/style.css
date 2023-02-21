@@ -6,8 +6,50 @@
 ul{
     list-style: none;
 }
+a{
+    text-decoration: none;
+}
+
+
+/* header */
 header{
     background-color:#0020F4 ;
     height: 387.56px;
+    display: flex;
+    justify-content: space-between;
 
+}
+.header-logo{
+    padding-top: 40px;
+    margin-left: 240px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+
+}
+
+.navigation li{
+
+
+    margin-right:50px;
+}
+
+.nav-txt{
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height:18px;
+    text-transform: uppercase;
+}
+
+.contact-btn{
+    width: 160px;
+    height: 55px;
+    border-radius:28px;
+    margin-top: -25px;
+    border: none;
+    color: #171717;
+    font-weight: bold;
+    font-size: 16px;
 }
